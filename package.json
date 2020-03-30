@@ -6,7 +6,22 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "dev": "export NODE_ENV=development | export DEBUG=app:dev | nodemon index.js"
+    "dev": "export NODE_ENV=development && export DEBUG=app:dev && nodemon index.js"
   },
-  "author": ""
+  "author": "",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.6",
+    "morgan": "^1.10.0",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
